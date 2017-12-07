@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is the club site</title>
+  <style media="screen">
+
+  .example{
+    display: inline-block;
+    color: red;
+    font-family: Arial;
+    width: 40%;
+  }
+
+  .example-2{
+    color: purple;
+    display: inline-block;
+    font-family: Arial;
+    width: 40%;
+  }
+      </style>
+  </head>
+  <body>
+    <h1>Hello welcome to the club website</h1>
+    <p id="click-me" class="example"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p class="example-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </body>
+  <script type="text/javascript">
+  var count = 0
+    var paragraph1 = document.getElementById('click-me');
+    paragraph1.onclick = function(){
+      count+=1;
+      alert("You clicked the paragraph" + count + " times.");
+    }
+  </script>
+</html>
